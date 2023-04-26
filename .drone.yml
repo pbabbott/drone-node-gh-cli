@@ -1,13 +1,21 @@
 kind: pipeline
+type: docker
 name: default
 
-steps:
-- name: docker
-  image: plugins/docker
-  settings:
-    repo: foo/bar
-    tags:
-    - latest
+trigger:
+  branch:
     - main
-    ssh-agent-key:
-      from_secret: private_key
+  ref:
+    exclude:
+      - refs/tags/*
+
+steps:
+  - name: Semantic Release
+    image: node:18
+    environment:
+      GITHUB_TOKEN:
+        from_secret: GITHUB_TOKEN
+    commands:
+    - yarn --frozen-lockfile
+    - yarn semantic-release
+   
