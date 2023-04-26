@@ -1,6 +1,6 @@
 {
   "name": "drone-node-gh-cli",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "main": "index.js",
   "repository": "git@github.com:pbabbott/drone-node-gh-cli.git",
   "author": "Brandon Abbott <pbabbott@gmail.com>",
