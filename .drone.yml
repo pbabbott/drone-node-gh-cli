@@ -43,5 +43,6 @@ steps:
       registry: https://registry.nas.local.abbottland.io
       mirror: https://registry-mirror.nas.local.abbottland.io
       repo: plugins/drone-node-gh-cli
+      insecure: true
       auto_tag: true
       dockerfile: ./Dockerfile
