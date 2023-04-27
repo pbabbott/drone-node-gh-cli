@@ -39,10 +39,9 @@ trigger:
 steps:
   - name: Publish plugin
     image: plugins/docker
-    pull: never
     settings:
       registry: https://registry.nas.local.abbottland.io
-      # mirror: https://registry-mirror.nas.local.abbottland.io
+      mirror: https://registry-mirror.nas.local.abbottland.io
       repo: plugins/drone-node-gh-cli
       auto_tag: true
       dockerfile: ./Dockerfile
