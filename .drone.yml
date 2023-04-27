@@ -1,6 +1,6 @@
 kind: pipeline
 type: docker
-name: default
+name: sem-ver
 platform:
   os: linux
   arch: arm64
@@ -29,7 +29,7 @@ steps:
 
 kind: pipeline
 type: docker
-name: default
+name: push-to-cr
 platform:
   os: linux
   arch: arm64
