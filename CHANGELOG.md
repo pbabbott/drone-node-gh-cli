@@ -1,5 +1,12 @@
 drone-node-gh-cli Changelog
 
+## [1.0.5](https://github.com/pbabbott/drone-node-gh-cli/compare/v1.0.4...v1.0.5) (2023-04-28)
+
+
+### Bug Fixes
+
+* attempt to add registry to repo name ([32f68db](https://github.com/pbabbott/drone-node-gh-cli/commit/32f68dbb3897560d806410a92c5809ccc1c19c8e))
+
 ## [1.0.4](https://github.com/pbabbott/drone-node-gh-cli/compare/v1.0.3...v1.0.4) (2023-04-28)
 
 
