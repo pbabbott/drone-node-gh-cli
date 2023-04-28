@@ -1,5 +1,12 @@
 drone-node-gh-cli Changelog
 
+## [1.0.4](https://github.com/pbabbott/drone-node-gh-cli/compare/v1.0.3...v1.0.4) (2023-04-28)
+
+
+### Bug Fixes
+
+* touch file to trigger release ([1748fee](https://github.com/pbabbott/drone-node-gh-cli/commit/1748fee6d2cb5f687619a1631501e4b89f65a033))
+
 ## [1.0.3](https://github.com/pbabbott/drone-node-gh-cli/compare/v1.0.2...v1.0.3) (2023-04-27)
 
 
