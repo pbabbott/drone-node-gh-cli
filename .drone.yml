@@ -41,8 +41,10 @@ steps:
     image: plugins/docker
     settings:
       registry: https://registry.nas.local.abbottland.io
+      username: pbabbott
+      password:
+        from_secret: REGISTRY_PASSWORD
       mirror: https://registry-mirror.nas.local.abbottland.io
       repo: drone-node-gh-cli
-      insecure: true
       auto_tag: true
       dockerfile: ./Dockerfile
