@@ -1,5 +1,12 @@
 drone-node-gh-cli Changelog
 
+## [1.0.3](https://github.com/pbabbott/drone-node-gh-cli/compare/v1.0.2...v1.0.3) (2023-04-27)
+
+
+### Bug Fixes
+
+* remove forward slash repo ([c4ec881](https://github.com/pbabbott/drone-node-gh-cli/commit/c4ec8811e8ff2b8e4a72bd5ade9d4d389db17523))
+
 ## [1.0.2](https://github.com/pbabbott/drone-node-gh-cli/compare/v1.0.1...v1.0.2) (2023-04-27)
 
 
