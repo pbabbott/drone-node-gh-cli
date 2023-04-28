@@ -1,5 +1,12 @@
 drone-node-gh-cli Changelog
 
+## [1.0.6](https://github.com/pbabbott/drone-node-gh-cli/compare/v1.0.5...v1.0.6) (2023-04-28)
+
+
+### Bug Fixes
+
+* remove protocol from repo ([0cb678c](https://github.com/pbabbott/drone-node-gh-cli/commit/0cb678cf9f66f60efb073e817f4aabc2c52bd5c0))
+
 ## [1.0.5](https://github.com/pbabbott/drone-node-gh-cli/compare/v1.0.4...v1.0.5) (2023-04-28)
 
 
