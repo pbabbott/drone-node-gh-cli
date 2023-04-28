@@ -7,7 +7,6 @@ IMAGE=drone-node-gh-cli
 TAG=latest
 BASE_IMAGE="node:18"
 
-
 docker build \
     -f ./Dockerfile \
     -t $REGISTRY/$IMAGE:$TAG \
