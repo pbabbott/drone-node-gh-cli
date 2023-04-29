@@ -1,5 +1,12 @@
 drone-node-gh-cli Changelog
 
+# [1.1.0](https://github.com/pbabbott/drone-node-gh-cli/compare/v1.0.0...v1.1.0) (2023-04-29)
+
+
+### Features
+
+* Add nx to Dockerfile ([8153d33](https://github.com/pbabbott/drone-node-gh-cli/commit/8153d33728403ecbbd10c31db0419e06feda819c))
+
 # 1.0.0 (2023-04-29)
 
 
