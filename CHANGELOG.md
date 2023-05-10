@@ -1,5 +1,12 @@
 drone-node-gh-cli Changelog
 
+## [2.0.1](https://github.com/pbabbott/drone-node-gh-cli/compare/v2.0.0...v2.0.1) (2023-05-10)
+
+
+### Bug Fixes
+
+* put dronefile back to how it was before git issues ([b24d696](https://github.com/pbabbott/drone-node-gh-cli/commit/b24d69680c4d950e360d0ecaa94df5d88821c4d4))
+
 # [2.0.0](https://github.com/pbabbott/drone-node-gh-cli/compare/v1.1.0...v2.0.0) (2023-05-10)
 
 
