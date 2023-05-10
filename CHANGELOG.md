@@ -1,5 +1,12 @@
 drone-node-gh-cli Changelog
 
+# [2.1.0](https://github.com/pbabbott/drone-node-gh-cli/compare/v2.0.1...v2.1.0) (2023-05-10)
+
+
+### Features
+
+* add docker CLI to image ([cd90d8f](https://github.com/pbabbott/drone-node-gh-cli/commit/cd90d8f8201de86265c02f985a2c9a3fd6690c50))
+
 ## [2.0.1](https://github.com/pbabbott/drone-node-gh-cli/compare/v2.0.0...v2.0.1) (2023-05-10)
 
 
