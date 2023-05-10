@@ -1,5 +1,23 @@
 drone-node-gh-cli Changelog
 
+# [2.0.0](https://github.com/pbabbott/drone-node-gh-cli/compare/v1.1.0...v2.0.0) (2023-05-10)
+
+
+### Bug Fixes
+
+* fix drone file github url ([315622a](https://github.com/pbabbott/drone-node-gh-cli/commit/315622ae00cd0b86fe4da2afd6b111c24dd27c29))
+* touch dockerfile to try and trigger release ([2a9fb02](https://github.com/pbabbott/drone-node-gh-cli/commit/2a9fb02f36dd5a702977baa5abf25a2e6a2ac03c))
+
+
+### Features
+
+* Revert node version from 18 to 16 ([f609877](https://github.com/pbabbott/drone-node-gh-cli/commit/f609877ec2332e3959c14e35ce6dc58690e025b9))
+
+
+### BREAKING CHANGES
+
+* Sets node version from 18 down to 16
+
 # [1.1.0](https://github.com/pbabbott/drone-node-gh-cli/compare/v1.0.0...v1.1.0) (2023-04-29)
 
 
