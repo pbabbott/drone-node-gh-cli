@@ -1,4 +1,4 @@
-ARG BASE_IMAGE="node:18"
+ARG BASE_IMAGE="node:16"
 FROM ${BASE_IMAGE}
 
 # Install GH CLI
