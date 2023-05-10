@@ -24,7 +24,7 @@ steps:
         from_secret: GITHUB_TOKEN
     commands:
     - git remote remove origin
-    - git remote add origin https://$GITHUB_TOKEN@github.com/pbabbott/home-web-apps
+    - git remote add origin https://$GITHUB_TOKEN@github.com/pbabbott/drone-node-gh-cli
     - git fetch --tags
     - yarn --frozen-lockfile
     - yarn semantic-release
