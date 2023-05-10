@@ -13,6 +13,11 @@ trigger:
       - refs/tags/*
 
 steps:
+  - name: git fetch
+    image: alpine/git
+    commands:
+      - git fetch --tags
+
   - name: Semantic Release
     image: node:18
     environment:
