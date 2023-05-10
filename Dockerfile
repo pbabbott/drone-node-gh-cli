@@ -9,5 +9,10 @@ RUN curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | d
   && apt update \
   && apt install gh -y
 
+# Install Docker CLI
+ENV DOCKER_HOST=unix:///var/run/docker.sock
+RUN curl -fsSL https://get.docker.com -o get-docker.sh \
+  && sh get-docker.sh
+
 # Install NX
 RUN npm install --global nx@latest
